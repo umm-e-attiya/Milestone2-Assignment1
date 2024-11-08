@@ -39,11 +39,11 @@ const Navbar = () => {
                     
                     <div className="cursor:pointer hover:underline w-4">
                      
-                     <a href="#"><IoSearchOutline /></a>
+                     <a href="#"><IoSearchOutline/></a>
                      </div>
 
                      <div className="cursor:pointer hover:underline w-4">
-                     <a href="#"><PiShoppingCartSimpleFill /></a>
+                     <a href="#"><PiShoppingCartSimpleFill/></a>
                      </div>
                  
                  </div>
