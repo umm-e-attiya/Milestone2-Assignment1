@@ -1,5 +1,5 @@
 import Image from "next/image";
-import react from "react"
+
 import template2 from "../../../public/template2.jpeg"
 import facewash from "../../../public/facewash.jpeg"
 import hyaluronicserum from "../../../public/hylaronicserum.jpeg"

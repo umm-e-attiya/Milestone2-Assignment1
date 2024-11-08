@@ -1,4 +1,4 @@
-import react from "react";
+
 import Image from "next/image";
 import template4 from "../../../public/template4.jpeg"
 
@@ -13,7 +13,7 @@ const Contact = () => {
                     <Image src={template4} alt="template4" width={900} className="ml-[10%]" />
                 </div>
                 <div className="lg:w-[800px] lg:mt-28  w-[300px] mt-10">
-                    <p className="ml-28">We'd love to hear from you! Whether you have questions about our products,need skincare advice, or just want to share your <i>Glow Remedy</i> experience, feel free to reach out.</p>
+                    <p className="ml-28">We d love to hear from you! Whether you have questions about our products,need skincare advice, or just want to share your <i>Glow Remedy</i> experience, feel free to reach out.</p>
                     <div className="mt-7">
                     <p className="ml-28"><b>Email:</b> info@glowremedy.com</p>
                     <p className="ml-28"><b>Phone:</b> +92 300 123 4567</p>

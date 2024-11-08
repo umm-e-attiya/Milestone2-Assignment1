@@ -1,5 +1,5 @@
 
-import react from "react"
+
 import Image from "next/image"
 import template3 from "../../../public/template3.jpeg"
 import bundle1 from "../../../public/Bundle1.jpeg"

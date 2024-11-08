@@ -1,4 +1,4 @@
-import React from "react";
+
 import { MdAccountCircle } from "react-icons/md";
 import { IoSearchOutline } from "react-icons/io5";
 import { PiShoppingCartSimpleFill } from "react-icons/pi";
