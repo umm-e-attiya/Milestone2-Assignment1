@@ -22,45 +22,45 @@ export default function Home() {
 
               <div className="mt-[300px] ">
                 <div>
-                  <h1 className="text-3xl ml-[10%] lg:text-5xl font-bold text-center">Feature Collection</h1>
+                  <h1 className="text-3xl ml-[3%] lg:text-5xl font-bold text-center">Feature Collection</h1>
                   </div>
                 </div>
 
 
-                <div className="flex flex-col ml-[10%] lg:flex-row  lg:justify-center lg:ml-2 lg:mt-12 lg:space-x-4 ">
+                <div className="flex flex-col ml-[11%] lg:flex-row  lg:justify-center lg:ml-2 lg:mt-12 lg:space-x-4 ">
 
                   <div>
-                       <Image src={facewash} alt="facewash" width={500} className=" ml-[10%] lg:mt-32 mt-12   lg:ml-1  transition-transform duration-300 transform hover:scale-110" />
-                       <p className="font-bold text-center ml-[20%] whitespace-nowrap mt-16  text-2xl lg:font-bold lg:ml-[2%] lg:text-center lg:relative lg:mt-3 lg:text-lg ">Fresh Glow Facewash</p>
-                       <p className="text-center  text-2xl ml-[20%] whitespace-nowrap mt-4 lg:text-center lg:text-lg lg:ml-1">1600RS</p>
+                       <Image src={facewash} alt="facewash" width={500} className="  w-[300px] px-6 lg:w-[500px] lg:mt-32 mt-12   lg:ml-1  transition-transform duration-300 transform hover:scale-110" />
+                       <p className="font-bold text-base ml-16  whitespace-nowrap  lg:font-bold lg:ml-[2%] lg:text-center lg:relative lg:mt-3 lg:text-lg ">Fresh Glow Facewash</p>
+                       <p className=" ml-28 text-based   whitespace-nowrap lg:mt-4 lg:text-center lg:text-lg lg:ml-1">1600RS</p>
                       
                        </div>
 
                     <div>
-                      <Image src={sunscreen60} alt="sunscreenspf60" width={500} className="  ml-[10%] mt-32   lg:ml-7 transition-transform duration-300 transform hover:scale-110"/>
-                      <p className="font-bold text-center ml-[20%] whitespace-nowrap mt-16  text-2xl lg:font-bold lg:text-center lg:ml-14 lg:text-lg lg:mt-3 ">Sunscreen Spf60</p>
-                      <p className="text-center  text-2xl ml-[20%] whitespace-nowrap mt-4  lg:text-lg lg:text-center lg:ml-11">1800RS</p>
+                      <Image src={sunscreen60} alt="sunscreenspf60" width={500} className=" px-6 w-[300px] lg:w-[500px] mt-32   lg:ml-7 transition-transform duration-300 transform hover:scale-110"/>
+                      <p className="font-bold  text-base ml-16   whitespace-nowrap   lg:text-center lg:ml-14 lg:text-lg lg:mt-3 ">Sunscreen Spf60</p>
+                      <p className="   ml-28 text-based      whitespace-nowrap lg:mt-4  lg:text-lg lg:text-center lg:ml-11">1800RS</p>
                     </div>
                     
                     <div>
-                      <Image src={vitaminC2} alt="vitaminC" width={500} className="   ml-[10%] mt-32 lg:ml-9
+                      <Image src={vitaminC2} alt="vitaminC" width={500} className=" px-6 w-[300px] lg:w-[500px] mt-32 lg:ml-9
                       transition-transform duration-300 transform hover:scale-110" />
-                      <p className="font-bold text-center ml-[20%] whitespace-nowrap mt-16  text-2xl lg:font-bold lg:text-center lg:ml-28 lg:text-lg lg:mt-3 ">Vitamin C Serum</p>
-                      <p className="text-center  text-2xl ml-[20%] whitespace-nowrap mt-4  lg:text-lg lg:text-center lg:ml-28">1950RS</p>
+                      <p className="font-bold  text-base ml-16 whitespace-nowrap :font-bold lg:text-center lg:ml-28 lg:text-lg lg:mt-3 ">Vitamin C Serum</p>
+                      <p className="ml-28 text-based     whitespace-nowrap   lg:text-lg lg:text-center lg:ml-28">1950RS</p>
                     </div>
                  </div>
 
 
 
-                 <div className="mt-60 my-40 ml-[20%] lg:mt-60 lg:my-40  ">
+                 <div className="px-6 mt-60 lg:mt-60 lg:my-40  ">
                      
-                     <p className="  bg-yellow-300 max-w-screen-2xl text-2xl ml-[10%] lg:mx-44 lg:mt-[50vh] lg:text-center  lg:text-5xl lg:text-black font-bold">
+                     <p className="  bg-yellow-300 max-w-screen-2xl text-2xl  lg:mx-44 lg:mt-[50vh] lg:text-center  lg:text-5xl lg:text-black font-bold">
                      Nourish your skin and unleash your inner glow!.</p>
 
                  </div>
 
 
-                 <div className="py-48">
+                 <div className="px-6 py-6 mt-60">
                      <Image src={template} alt="template" width={1800} height={500}/>
                      
                       

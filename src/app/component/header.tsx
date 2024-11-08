@@ -13,15 +13,15 @@ const Navbar = () => {
     return(
         <div className="py-12">
             
-            <div className= "text-black flex  lg:flex-row lg:items-center ">
-            <h1 className="lg:text-2xl lg:ml-28 text-2xl  ">Glow Remedy</h1>
+            <div className= "text-black flex lg:flex  lg:flex-row lg:items-center ">
+            <h1 className="  text-sm lg:text-7x1 lg:ml-28  ">Glow Remedy</h1>
                 
           <nav>
                 
-            <ul className="flex  space-x-5 ml-[10%] lg:flex-row text-2xl lg:space-x-9  lg:ml-80  lg:text-lg">
+            <ul className="  space-x-3 ml-[0.5px]  flex  text-xs lg:flex lg:flex-row  lg:space-x-9  lg:ml-80  lg:text-lg">
                    
                     
-                   <li className="cursor-pointer hover:underline"><Link href="/">Home</Link></li>
+                   <li className="cursor-pointer hover:underline ml-4"><Link href="/">Home</Link></li>
                    <li className="cursor-pointer hover:underline justify-center"><Link href="/Shop">Shop</Link></li>
                    <li className="cursor-pointer hover:underline justify-center"><Link href="/Bundles">Bundles</Link></li>
                    <li className="cursor-pointer hover:underline justify-center"><Link href="/About">About</Link></li>
@@ -32,12 +32,12 @@ const Navbar = () => {
                   
                 </nav>                                    
 
-                   <div className=" flex ml-[20%] gap-5 lg:flex-row lg:justify-between lg:gap-6 lg: w-[40px] lg:h-8 lg:pt-2 lg:ml-96">
+                   <div className=" flex justify-between  gap-1 lg:flex-row lg:justify-between lg:gap-6 lg: w-[40px] lg:h-8 lg:pt-2 lg:ml-96">
                     <div className="cursor:pointer hover:underline w-4">
                     <a href="#"><MdAccountCircle/></a>
                     </div>
                     
-                    <div className="cursor:pointer hover:underline w-4">
+                    <div className="cursor:pointer hover:underline lg:w-4">
                      
                      <a href="#"><IoSearchOutline/></a>
                      </div>
